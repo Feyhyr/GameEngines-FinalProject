@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: HatCat
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 2962631546284061062, guid: bed636349e880764b966481ff6662ef5, type: 3}
   displayIcon: {fileID: 0}
   category: 1
   iName: Cat Hat

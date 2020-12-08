@@ -6,9 +6,9 @@ public class Inventory : MonoBehaviour
 {
     public GameObject prefab_Container;
     public Transform invListLocation;
-    //public Transform npcListLocation;
+    public Transform npcListLocation;
     public List<ItemSO> itemList;
-    //public List<ItemSO> npcList;
+    public List<ItemSO> npcList;
 
     private void Start()
     {

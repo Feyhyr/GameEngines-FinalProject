@@ -12,15 +12,14 @@ public class ItemController : MonoBehaviour
     public Inventory inv;
     public AudioClip audioSFX;
 
-    /*public void MoveList()
+    public void MoveList()
     {
         if (transform.parent == inv.invListLocation)
         {
-            //FindObjectOfType<QuestUtil>().submitBTN.SetActive(true);
             transform.SetParent(inv.npcListLocation);
             inv.npcList.Add(item);
         }
-    }*/
+    }
 
     public void ChangeCharacterPart()
     {
@@ -32,7 +31,7 @@ public class ItemController : MonoBehaviour
             charM.body.sprite = item.icon;
         }
 
-        /*if (item.category == ItemSO.Category.Hat)
+        if (item.category == ItemSO.Category.Hat)
         {
             GetComponent<CharacterManager>().hat.sprite = item.icon;
         }
@@ -50,7 +49,7 @@ public class ItemController : MonoBehaviour
         if (item.category == ItemSO.Category.Face)
         {
             GetComponent<CharacterManager>().face.sprite = item.icon;
-        }*/
+        }
 
         if (item.category == ItemSO.Category.Neck)
         {
