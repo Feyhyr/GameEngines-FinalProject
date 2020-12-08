@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: BodyRed
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: -2532770114027064950, guid: 39cdf47fdbbcb2246ad70b41a8ae2d4f, type: 3}
   category: 0
   iName: Red
