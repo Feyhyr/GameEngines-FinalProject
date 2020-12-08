@@ -7,6 +7,7 @@ public class ItemController : MonoBehaviour
 {
     public ItemSO item;
     public Image itemIcon;
+    public Image displayIcon;
 
     public Inventory inv;
 
@@ -22,10 +23,37 @@ public class ItemController : MonoBehaviour
 
     public void ChangeCharacterPart()
     {
-        /*if (item.category == ItemSO.Category.BodyColour)
+        GameObject character = GameObject.Find("Character");
+        CharacterManager charM = character.GetComponent<CharacterManager>();
+
+        if (item.category == ItemSO.Category.BodyColour)
         {
-            GetComponent<CharacterManager>().body.sprite = item.icon;
+            charM.body.sprite = item.icon;
+        }
+
+        /*if (item.category == ItemSO.Category.Hat)
+        {
+            GetComponent<CharacterManager>().hat.sprite = item.icon;
+        }
+
+        if (item.category == ItemSO.Category.Tail)
+        {
+            GetComponent<CharacterManager>().tail.sprite = item.icon;
+        }
+
+        if (item.category == ItemSO.Category.Wings)
+        {
+            GetComponent<CharacterManager>().wings.sprite = item.icon;
+        }
+
+        if (item.category == ItemSO.Category.Face)
+        {
+            GetComponent<CharacterManager>().face.sprite = item.icon;
         }*/
-        
+
+        if (item.category == ItemSO.Category.Neck)
+        {
+            charM.neck.sprite = item.icon;
+        }
     }
 }

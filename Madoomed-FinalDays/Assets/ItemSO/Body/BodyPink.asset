@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: BodyPink
   m_EditorClassIdentifier: 
   icon: {fileID: 128722677757624266, guid: 39cdf47fdbbcb2246ad70b41a8ae2d4f, type: 3}
+  displayIcon: {fileID: 4233082598213729148, guid: 491a1ae0cb8b6f84ab76c4b12cdd9202,
+    type: 3}
   category: 0
   iName: Pink

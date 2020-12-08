@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: BodyPurple
   m_EditorClassIdentifier: 
   icon: {fileID: -4811896289106328176, guid: 39cdf47fdbbcb2246ad70b41a8ae2d4f, type: 3}
+  displayIcon: {fileID: -6035547633103090488, guid: 491a1ae0cb8b6f84ab76c4b12cdd9202,
+    type: 3}
   category: 0
   iName: Purple

@@ -22,7 +22,14 @@ public class Inventory : MonoBehaviour
             GameObject myPrefab = Instantiate(prefab_Container, invListLocation);
             myPrefab.GetComponent<ItemController>().inv = this;
             myPrefab.GetComponent<ItemController>().item = itemList[i];
-            myPrefab.GetComponent<ItemController>().itemIcon.sprite = itemList[i].icon;
+            if (itemList[i].category == ItemSO.Category.BodyColour)
+            {
+                myPrefab.GetComponent<ItemController>().itemIcon.sprite = itemList[i].displayIcon;
+            }
+            else
+            {
+                myPrefab.GetComponent<ItemController>().itemIcon.sprite = itemList[i].icon;
+            }
         }
     }
 }

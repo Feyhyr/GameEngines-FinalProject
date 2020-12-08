@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Category
-{
-    BodyColour,
-    Hat,
-    Tail,
-    Wings,
-    Neck,
-    Face
-}
-
 [CreateAssetMenu(menuName = "Item")]
 public class ItemSO : ScriptableObject
 {
+    public enum Category
+    {
+        BodyColour,
+        Hat,
+        Tail,
+        Wings,
+        Neck,
+        Face
+    }
+
     public Sprite icon;
+    public Sprite displayIcon;
     public Category category;
     public string iName;
 }
