@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: FaceAngry
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
+  displayIcon: {fileID: 0}
   category: 5
   iName: Angry Face
+  audio: {fileID: 8300000, guid: 4ed08aaf11b7a814984a3c4916a91ff7, type: 3}

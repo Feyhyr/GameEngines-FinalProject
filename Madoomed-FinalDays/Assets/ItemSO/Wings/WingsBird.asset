@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: WingsBird
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
+  displayIcon: {fileID: 0}
   category: 3
   iName: Bird Wings
+  audio: {fileID: 8300000, guid: 4c9cf2dec0223534e8cbb04dfae8a3e4, type: 3}

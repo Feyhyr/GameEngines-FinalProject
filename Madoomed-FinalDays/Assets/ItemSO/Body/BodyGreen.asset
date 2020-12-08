@@ -17,3 +17,4 @@ MonoBehaviour:
     type: 3}
   category: 0
   iName: Green
+  audio: {fileID: 8300000, guid: b70ece69d8b74184aaf0793d101cffcc, type: 3}

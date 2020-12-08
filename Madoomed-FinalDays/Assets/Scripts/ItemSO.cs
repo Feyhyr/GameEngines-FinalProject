@@ -19,4 +19,5 @@ public class ItemSO : ScriptableObject
     public Sprite displayIcon;
     public Category category;
     public string iName;
+    public AudioClip audio;
 }

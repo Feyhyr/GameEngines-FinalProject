@@ -10,6 +10,7 @@ public class ItemController : MonoBehaviour
     public Image displayIcon;
 
     public Inventory inv;
+    public AudioClip audioSFX;
 
     /*public void MoveList()
     {
@@ -55,5 +56,10 @@ public class ItemController : MonoBehaviour
         {
             charM.neck.sprite = item.icon;
         }
+    }
+
+    public void PlayAudio()
+    {
+        AudioManager.Instance.Play(audioSFX);
     }
 }
