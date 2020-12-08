@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: BodyGreen
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 2051838690959551611, guid: 39cdf47fdbbcb2246ad70b41a8ae2d4f, type: 3}
+  displayIcon: {fileID: -8097961517319569443, guid: 491a1ae0cb8b6f84ab76c4b12cdd9202,
+    type: 3}
   category: 0
   iName: Green

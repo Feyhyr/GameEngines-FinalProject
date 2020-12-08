@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: NeckPendant
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: -8682079971114897197, guid: f46fa4daacf77f2459670bf97dc4db38, type: 3}
   category: 4
   iName: Pendant
