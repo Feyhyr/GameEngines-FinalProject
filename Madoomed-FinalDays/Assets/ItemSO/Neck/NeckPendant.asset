@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: NeckPendant
   m_EditorClassIdentifier: 
   icon: {fileID: -8682079971114897197, guid: f46fa4daacf77f2459670bf97dc4db38, type: 3}
-  displayIcon: {fileID: 0}
+  displayIcon: {fileID: -4225214539570682802, guid: e11e533ce35f62c4fbd55f26fc56d4e9,
+    type: 3}
   category: 4
   iName: Pendant
   audio: {fileID: 8300000, guid: 75b83603c04ebbc408544ad73b3f3431, type: 3}

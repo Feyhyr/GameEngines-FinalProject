@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: NeckScarf
   m_EditorClassIdentifier: 
   icon: {fileID: -4781569489831688543, guid: f46fa4daacf77f2459670bf97dc4db38, type: 3}
-  displayIcon: {fileID: 0}
+  displayIcon: {fileID: -2800195765319572040, guid: e11e533ce35f62c4fbd55f26fc56d4e9,
+    type: 3}
   category: 4
   iName: Scarf
   audio: {fileID: 8300000, guid: 75b83603c04ebbc408544ad73b3f3431, type: 3}

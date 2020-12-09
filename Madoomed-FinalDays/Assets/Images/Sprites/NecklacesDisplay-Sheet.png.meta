@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: cb1428e978c9a4a42a9fc7ff841efc3b
+guid: e11e533ce35f62c4fbd55f26fc56d4e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1894259665018342356
-    second: Wings-Sheet_0
+      213: -4781569489831688543
+    second: Necklaces-Sheet_0
   - first:
-      213: 9219548453035910602
-    second: Wings-Sheet_1
+      213: 6682312748720132960
+    second: Necklaces-Sheet_1
   - first:
-      213: -8188446513109968595
-    second: Wings-Sheet_2
+      213: -8682079971114897197
+    second: Necklaces-Sheet_2
   - first:
-      213: -5602939761483794868
-    second: Wings-Sheet_3
+      213: -6989447718558971186
+    second: Necklaces-Sheet_3
   - first:
-      213: -1524750178209962481
-    second: Wings-Sheet_4
+      213: -2800195765319572040
+    second: NecklacesDisplay-Sheet_0
   - first:
-      213: 1381683520797570802
-    second: Wings-Sheet_5
+      213: -8435368703006923943
+    second: NecklacesDisplay-Sheet_1
   - first:
-      213: -3338792476715323987
-    second: Wings-Sheet_6
+      213: -4225214539570682802
+    second: NecklacesDisplay-Sheet_2
   - first:
-      213: 2972663901248437072
-    second: Wings-Sheet_7
+      213: 621722395628185427
+    second: NecklacesDisplay-Sheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,85 +111,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wings-Sheet_0
+      name: NecklacesDisplay-Sheet_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 130
-        width: 452
-        height: 85
+        x: 76
+        y: 52
+        width: 364
+        height: 116
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c243b32fedc36b5e0800000000000000
-      internalID: -1894259665018342356
+      spriteID: 8b5e29a99c4b329d0800000000000000
+      internalID: -2800195765319572040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wings-Sheet_2
+      name: NecklacesDisplay-Sheet_1
       rect:
         serializedVersion: 2
-        x: 577
-        y: 70
-        width: 391
-        height: 158
+        x: 692
+        y: 52
+        width: 68
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d295bc3d74bcc5e80800000000000000
-      internalID: -8188446513109968595
+      spriteID: 95323db6bdc8fea80800000000000000
+      internalID: -8435368703006923943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wings-Sheet_4
+      name: NecklacesDisplay-Sheet_2
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 45
-        width: 459
-        height: 195
+        x: 1132
+        y: 28
+        width: 280
+        height: 152
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f06e4989acff6dae0800000000000000
-      internalID: -1524750178209962481
+      spriteID: e44e21d23c50d55c0800000000000000
+      internalID: -4225214539570682802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wings-Sheet_6
+      name: NecklacesDisplay-Sheet_3
       rect:
         serializedVersion: 2
-        x: 1588
-        y: 86
-        width: 435
-        height: 147
+        x: 1632
+        y: 36
+        width: 308
+        height: 132
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dade2ae9ee93aa1d0800000000000000
-      internalID: -3338792476715323987
+      spriteID: 357a25c893dc0a800800000000000000
+      internalID: 621722395628185427
       vertices: []
       indices: 
       edges: []
@@ -197,7 +197,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 178457ec6adfcf64187167c5b4438399
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

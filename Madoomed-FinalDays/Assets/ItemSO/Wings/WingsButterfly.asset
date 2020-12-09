@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: WingsButterfly
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  displayIcon: {fileID: 0}
+  icon: {fileID: -3338792476715323987, guid: cb1428e978c9a4a42a9fc7ff841efc3b, type: 3}
+  displayIcon: {fileID: 323738555481744032, guid: 91a4444315e9c41408a36e3a317ea7f4,
+    type: 3}
   category: 3
   iName: Swallowtail Butterfly Wings
   audio: {fileID: 8300000, guid: 4c9cf2dec0223534e8cbb04dfae8a3e4, type: 3}
