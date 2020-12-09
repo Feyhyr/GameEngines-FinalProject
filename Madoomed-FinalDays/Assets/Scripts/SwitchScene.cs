@@ -16,4 +16,8 @@ public class SwitchScene : MonoBehaviour
         Application.Quit();
     }
 
+    public void DestroyCharacter()
+    {
+        Destroy(GameObject.Find("Character"));
+    }
 }

@@ -10,4 +10,9 @@ public class CharacterManager : MonoBehaviour
     public SpriteRenderer neck;
     public SpriteRenderer tail;
     public SpriteRenderer wings;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 }
