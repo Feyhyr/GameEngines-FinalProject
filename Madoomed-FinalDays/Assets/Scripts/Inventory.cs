@@ -42,7 +42,7 @@ public class Inventory : MonoBehaviour
             {
                 myPrefab = Instantiate(prefab_Container, hatEquippedLocation);
             }
-            else if (itemList[i].iName == "Soul Gem Pendant")
+            else if (itemList[i].iName == "Bowtie")
             {
                 myPrefab = Instantiate(prefab_Container, neckEquippedLocation);
             }
@@ -62,39 +62,80 @@ public class Inventory : MonoBehaviour
             myPrefab.GetComponent<ItemController>().inv = this;
             myPrefab.GetComponent<ItemController>().item = itemList[i];
             myPrefab.GetComponent<ItemController>().audioSFX = itemList[i].audio;
-
-            if ((itemList[i].category == ItemSO.Category.BodyColour) || (itemList[i].category == ItemSO.Category.Hat) || (itemList[i].category == ItemSO.Category.Neck) || (itemList[i].category == ItemSO.Category.Wings))
-            {
-                myPrefab.GetComponent<ItemController>().itemIcon.sprite = itemList[i].displayIcon;
-            }
-            else
-            {
-                myPrefab.GetComponent<ItemController>().itemIcon.sprite = itemList[i].icon;
-            }
+            myPrefab.GetComponent<ItemController>().itemIcon.sprite = itemList[i].displayIcon;
+            myPrefab.GetComponent<ItemController>().itemName.text = itemList[i].iName;
         }
     }
 
-    public List<ItemSO> FilterItems(ItemSO.Category category)
+    public void ChooseFilter(string filter)
     {
-        filteredList = (from item in itemList where item.category == category select item).ToList();
-        return filteredList;
+        if (filter == "Body")
+        {
+            FilterItems(ItemSO.Category.BodyColour);
+        }
+        else if (filter == "Face")
+        {
+            FilterItems(ItemSO.Category.Face);
+        }
+        else if (filter == "Hat")
+        {
+            FilterItems(ItemSO.Category.Hat);
+        }
+        else if (filter == "Neck")
+        {
+            FilterItems(ItemSO.Category.Neck);
+        }
+        else if (filter == "Tail")
+        {
+            FilterItems(ItemSO.Category.Tail);
+        }
+        else if (filter == "Wings")
+        {
+            FilterItems(ItemSO.Category.Wings);
+        }
     }
 
-    public void SubmitItems()
+    public void FilterItems(ItemSO.Category category)
     {
-        var npcItem = invListLocation.Cast<Transform>().Where(x => x.GetComponent<Image>()).ToList();
+        filteredList = (from item in itemList where item.category == category select item).ToList();
+    }
 
-        var npcListItem = itemList.Select((x, y) => new { index = y, element = x }).Where(x => x.element.iName == objectiveItem.iName).ToList();
+    public void FilterCharacterPart()
+    {
+        var npcItem = invListLocation.Cast<Transform>().Where(x => x.GetComponent<Text>()).ToList();
 
-        foreach (Transform t in invListLocation)
+        foreach(ItemSO singleItem in filteredList)
         {
-            if (t.GetComponentInChildren<Image>() != null)
+            var npcListItem = itemList.Select((x, y) => new { index = y, element = x }).Where(x => x.element.id == singleItem.id).ToList();
+
+            foreach (Transform t in invListLocation)
             {
-                if (t.GetComponentInChildren<Image>().sprite == objectiveItem.icon)
+                if (t.GetComponentInChildren<Text>() != null)
                 {
-                    Destroy(t.gameObject);//.SetActive(false);
+                    if (t.GetComponentInChildren<Text>().text == singleItem.iName)
+                    {
+                        t.gameObject.SetActive(false);
+                    }
+                    /*else
+                    {
+                        t.gameObject.SetActive(false);
+                    }*/
                 }
             }
         }
+
+        /*var npcListItem = itemList.Select((x, y) => new { index = y, element = x }).Where(x => x.element.id == filteredList.id).ToList();
+        Debug.Log("npcItems: " + npcListItem);
+
+        foreach (Transform t in invListLocation)
+        {
+            if (t.GetComponentInChildren<Text>() != null)
+            {
+                if (t.GetComponentInChildren<Text>().text == objectiveItem.iName)
+                {
+                    t.gameObject.SetActive(false);
+                }
+            }
+        }*/
     }
 }

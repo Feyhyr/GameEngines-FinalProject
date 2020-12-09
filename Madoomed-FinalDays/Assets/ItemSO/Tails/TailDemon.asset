@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: TailDemon
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  displayIcon: {fileID: 0}
+  id: 104
+  icon: {fileID: -1835911356120460659, guid: e3bfb151ce1eb9a419c8bb078d100db0, type: 3}
+  displayIcon: {fileID: -9092879627677251588, guid: 3d6f015a38019ca45a19cca8e3b21dfc,
+    type: 3}
   category: 2
   iName: Demon Tail
   audio: {fileID: 8300000, guid: a0b47a0803f82f94583f23717c265967, type: 3}

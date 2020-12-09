@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: FaceNeutral
   m_EditorClassIdentifier: 
+  id: 101
   icon: {fileID: -2331947289568548301, guid: 83ad30c25f16c8f4faff03901a0092f0, type: 3}
-  displayIcon: {fileID: 0}
+  displayIcon: {fileID: -2331947289568548301, guid: 83ad30c25f16c8f4faff03901a0092f0,
+    type: 3}
   category: 5
-  iName: Neutral
+  iName: Neutral Face
   audio: {fileID: 8300000, guid: 4ed08aaf11b7a814984a3c4916a91ff7, type: 3}

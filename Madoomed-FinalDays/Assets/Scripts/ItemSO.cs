@@ -15,6 +15,7 @@ public class ItemSO : ScriptableObject
         Face
     }
 
+    public int id;
     public Sprite icon;
     public Sprite displayIcon;
     public Category category;

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: WingsBird
   m_EditorClassIdentifier: 
+  id: 105
   icon: {fileID: -1524750178209962481, guid: cb1428e978c9a4a42a9fc7ff841efc3b, type: 3}
   displayIcon: {fileID: -6524413399795984505, guid: 91a4444315e9c41408a36e3a317ea7f4,
     type: 3}

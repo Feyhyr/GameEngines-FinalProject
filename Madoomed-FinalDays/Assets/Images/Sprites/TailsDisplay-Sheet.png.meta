@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3bfb151ce1eb9a419c8bb078d100db0
+guid: 3d6f015a38019ca45a19cca8e3b21dfc
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: -3523763536142836464
     second: Tails-Sheet_3
+  - first:
+      213: -9092879627677251588
+    second: TailsDisplay-Sheet_0
+  - first:
+      213: 877440386616091269
+    second: TailsDisplay-Sheet_1
+  - first:
+      213: -7707738799058711095
+    second: TailsDisplay-Sheet_2
+  - first:
+      213: 8298263185043271837
+    second: TailsDisplay-Sheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,49 +111,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tails-Sheet_0
+      name: TailsDisplay-Sheet_0
       rect:
         serializedVersion: 2
-        x: 373
+        x: 416
         y: 88
-        width: 111
-        height: 113
+        width: 68
+        height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d82955349588586e0800000000000000
-      internalID: -1835911356120460659
+      spriteID: cf749ee972a9fc180800000000000000
+      internalID: -9092879627677251588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tails-Sheet_1
+      name: TailsDisplay-Sheet_1
       rect:
         serializedVersion: 2
-        x: 897
+        x: 928
         y: 96
-        width: 107
-        height: 104
+        width: 76
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 076be5064a95d1220800000000000000
-      internalID: 2458219534140487280
+      spriteID: 58265dbf16b4d2c00800000000000000
+      internalID: 877440386616091269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tails-Sheet_2
+      name: TailsDisplay-Sheet_2
       rect:
         serializedVersion: 2
         x: 1388
@@ -149,35 +161,35 @@ TextureImporter:
         width: 108
         height: 140
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e0d89a9c257e0c0800000000000000
-      internalID: -4546574272720728526
+      spriteID: 9cd0c9c466c980590800000000000000
+      internalID: -7707738799058711095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tails-Sheet_3
+      name: TailsDisplay-Sheet_3
       rect:
         serializedVersion: 2
-        x: 1915
+        x: 1932
         y: 84
-        width: 97
-        height: 98
+        width: 80
+        height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01d5bbbcbb3191fc0800000000000000
-      internalID: -3523763536142836464
+      spriteID: d90b435966a592370800000000000000
+      internalID: 8298263185043271837
       vertices: []
       indices: 
       edges: []
