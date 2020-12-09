@@ -1,30 +1,12 @@
 fileFormatVersion: 2
-guid: c17e6afd9cf1ec242bdf248b6edfbb00
+guid: 0b7b6fbfab8148b4aa28183bfd3a1a28
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 4681497675275774632
-    second: ColourHolder-Sheet_0
-  - first:
-      213: -3941224475880970819
-    second: ColourHolder-Sheet_1
-  - first:
-      213: -2043187487540322704
-    second: ColourHolder-Sheet_2
-  - first:
-      213: -3930580016723658589
-    second: ColourHolder-Sheet_3
-  - first:
-      213: -8606785591272892346
-    second: ColourHolder-Sheet_4
-  - first:
-      213: 1621966909733361122
-    second: ColourHolder-Sheet_5
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -52,13 +34,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: 1
-    wrapV: 1
+    wrapU: -1
+    wrapV: -1
     wrapW: -1
-  nPOTScale: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +49,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -89,151 +71,13 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: ColourHolder-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 62
-        width: 276
-        height: 395
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8aa21aff45508f040800000000000000
-      internalID: 4681497675275774632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ColourHolder-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 62
-        width: 274
-        height: 404
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db52a0f7835fd49c0800000000000000
-      internalID: -3941224475880970819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ColourHolder-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 1142
-        y: 62
-        width: 276
-        height: 404
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07ed2ab2ec325a3e0800000000000000
-      internalID: -2043187487540322704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ColourHolder-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 1654
-        y: 62
-        width: 276
-        height: 395
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a8ffe5cc46c379c0800000000000000
-      internalID: -3930580016723658589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ColourHolder-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 2167
-        y: 62
-        width: 274
-        height: 404
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6489a3efa1e8e8880800000000000000
-      internalID: -8606785591272892346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ColourHolder-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 2678
-        y: 62
-        width: 276
-        height: 404
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e558149f42628610800000000000000
-      internalID: 1621966909733361122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f22be8db773f2254b83e2c36ebaaa32a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
