@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 9afe8cf3182cf6c4fb5bab257dbbf99e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5345761855481348747
+    second: Hats-Sheet_0
+  - first:
+      213: 4831791501026605916
+    second: Hats-Sheet_1
+  - first:
+      213: 9187600859232554582
+    second: Hats-Sheet_2
+  - first:
+      213: 529642508399500042
+    second: Hats-Sheet_3
+  - first:
+      213: 2962631546284061062
+    second: Hats-Sheet_4
+  - first:
+      213: 4443075496515958740
+    second: Hats-Sheet_5
+  - first:
+      213: -1915375098651605665
+    second: HatsDisplay-Sheet_0
+  - first:
+      213: -3156389298651407147
+    second: HatsDisplay-Sheet_1
+  - first:
+      213: 2704259346602585862
+    second: HatsDisplay-Sheet_2
+  - first:
+      213: 577662744237721725
+    second: HatsDisplay-Sheet_3
+  - first:
+      213: -5894392111341991775
+    second: HatsDisplay-Sheet_4
+  - first:
+      213: -2480779416957778646
+    second: HatsDisplay-Sheet_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HatsDisplay-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 210
+        width: 154
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f550e31fe783b65e0800000000000000
+      internalID: -1915375098651605665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatsDisplay-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 194
+        width: 219
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcd909f7a04234d0800000000000000
+      internalID: -3156389298651407147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatsDisplay-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 187
+        width: 202
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fe6c64c85778520800000000000000
+      internalID: 2704259346602585862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatsDisplay-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 183
+        width: 189
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78444e8435440800800000000000000
+      internalID: 577662744237721725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatsDisplay-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 207
+        width: 207
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a88894ca99e23ea0800000000000000
+      internalID: -5894392111341991775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a389667a57751e64191e39a9eabe5598
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

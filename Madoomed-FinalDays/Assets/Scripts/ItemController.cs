@@ -16,8 +16,8 @@ public class ItemController : MonoBehaviour
     {
         if (transform.parent == inv.invListLocation)
         {
-            transform.SetParent(inv.npcListLocation);
-            inv.npcList.Add(item);
+            transform.SetParent(inv.equippedListLocation);
+            inv.equippedList.Add(item);
         }
     }
 
@@ -33,22 +33,22 @@ public class ItemController : MonoBehaviour
 
         if (item.category == ItemSO.Category.Hat)
         {
-            GetComponent<CharacterManager>().hat.sprite = item.icon;
+            charM.hat.sprite = item.icon;
         }
 
         if (item.category == ItemSO.Category.Tail)
         {
-            GetComponent<CharacterManager>().tail.sprite = item.icon;
+            charM.tail.sprite = item.icon;
         }
 
         if (item.category == ItemSO.Category.Wings)
         {
-            GetComponent<CharacterManager>().wings.sprite = item.icon;
+            charM.wings.sprite = item.icon;
         }
 
         if (item.category == ItemSO.Category.Face)
         {
-            GetComponent<CharacterManager>().face.sprite = item.icon;
+            charM.face.sprite = item.icon;
         }
 
         if (item.category == ItemSO.Category.Neck)

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: HatParty
   m_EditorClassIdentifier: 
   icon: {fileID: -5345761855481348747, guid: bed636349e880764b966481ff6662ef5, type: 3}
-  displayIcon: {fileID: 0}
+  displayIcon: {fileID: -1915375098651605665, guid: 9afe8cf3182cf6c4fb5bab257dbbf99e,
+    type: 3}
   category: 1
   iName: Party Hat
   audio: {fileID: 8300000, guid: 59ceeeebc985026438c747400af41a4f, type: 3}

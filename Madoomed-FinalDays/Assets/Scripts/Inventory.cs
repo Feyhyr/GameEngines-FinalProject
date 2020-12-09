@@ -6,9 +6,9 @@ public class Inventory : MonoBehaviour
 {
     public GameObject prefab_Container;
     public Transform invListLocation;
-    public Transform npcListLocation;
+    public Transform equippedListLocation;
     public List<ItemSO> itemList;
-    public List<ItemSO> npcList;
+    public List<ItemSO> equippedList;
 
     private void Start()
     {
@@ -23,7 +23,7 @@ public class Inventory : MonoBehaviour
             myPrefab.GetComponent<ItemController>().inv = this;
             myPrefab.GetComponent<ItemController>().item = itemList[i];
             myPrefab.GetComponent<ItemController>().audioSFX = itemList[i].audio;
-            if (itemList[i].category == ItemSO.Category.BodyColour)
+            if ((itemList[i].category == ItemSO.Category.BodyColour) || (itemList[i].category == ItemSO.Category.Hat))
             {
                 myPrefab.GetComponent<ItemController>().itemIcon.sprite = itemList[i].displayIcon;
             }

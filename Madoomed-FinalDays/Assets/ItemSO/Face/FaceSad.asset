@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0a0d64bf14e39489397a10c3bd263e, type: 3}
   m_Name: FaceSad
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: -4690468450159150229, guid: 83ad30c25f16c8f4faff03901a0092f0, type: 3}
   displayIcon: {fileID: 0}
   category: 5
   iName: Sad Face

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: HatCat
   m_EditorClassIdentifier: 
   icon: {fileID: 2962631546284061062, guid: bed636349e880764b966481ff6662ef5, type: 3}
-  displayIcon: {fileID: 0}
+  displayIcon: {fileID: -5894392111341991775, guid: 9afe8cf3182cf6c4fb5bab257dbbf99e,
+    type: 3}
   category: 1
   iName: Cat Hat
   audio: {fileID: 8300000, guid: 59ceeeebc985026438c747400af41a4f, type: 3}
