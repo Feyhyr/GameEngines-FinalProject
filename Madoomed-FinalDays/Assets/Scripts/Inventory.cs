@@ -17,8 +17,6 @@ public class Inventory : MonoBehaviour
     public List<ItemSO> itemList;
     public List<ItemSO> filteredList;
 
-    public ItemSO objectiveItem;
-
     private void Start()
     {
         AddItemToList();
@@ -63,7 +61,7 @@ public class Inventory : MonoBehaviour
             myPrefab.GetComponent<ItemController>().item = itemList[i];
             myPrefab.GetComponent<ItemController>().audioSFX = itemList[i].audio;
             myPrefab.GetComponent<ItemController>().itemIcon.sprite = itemList[i].displayIcon;
-            myPrefab.GetComponent<ItemController>().itemName.text = itemList[i].iName;
+            myPrefab.GetComponent<ItemController>().itemId.text = itemList[i].id.ToString();
         }
     }
 
@@ -102,40 +100,30 @@ public class Inventory : MonoBehaviour
 
     public void FilterCharacterPart()
     {
-        var npcItem = invListLocation.Cast<Transform>().Where(x => x.GetComponent<Text>()).ToList();
-
         foreach(ItemSO singleItem in filteredList)
         {
-            var npcListItem = itemList.Select((x, y) => new { index = y, element = x }).Where(x => x.element.id == singleItem.id).ToList();
-
             foreach (Transform t in invListLocation)
             {
                 if (t.GetComponentInChildren<Text>() != null)
                 {
-                    if (t.GetComponentInChildren<Text>().text == singleItem.iName)
+                    if (t.GetComponentInChildren<Text>().text == singleItem.id.ToString())
+                    {
+                        t.gameObject.SetActive(true);
+                    }
+                    else if (t.GetComponentInChildren<Text>().text != singleItem.ToString())
                     {
                         t.gameObject.SetActive(false);
                     }
-                    /*else
-                    {
-                        t.gameObject.SetActive(false);
-                    }*/
                 }
             }
         }
+    }
 
-        /*var npcListItem = itemList.Select((x, y) => new { index = y, element = x }).Where(x => x.element.id == filteredList.id).ToList();
-        Debug.Log("npcItems: " + npcListItem);
-
+    public void ResetFilter()
+    {
         foreach (Transform t in invListLocation)
         {
-            if (t.GetComponentInChildren<Text>() != null)
-            {
-                if (t.GetComponentInChildren<Text>().text == objectiveItem.iName)
-                {
-                    t.gameObject.SetActive(false);
-                }
-            }
-        }*/
+            t.gameObject.SetActive(true);
+        }
     }
 }

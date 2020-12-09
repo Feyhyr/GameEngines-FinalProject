@@ -957,6 +957,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1065183763}
+        m_MethodName: ResetFilter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &805116166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1440,7 +1451,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d905ed27957dfa94289e47c8d0075022, type: 2}
   - {fileID: 11400000, guid: feeecb4a2040ced4d9cd91a1f65bbd95, type: 2}
   filteredList: []
-  objectiveItem: {fileID: 11400000, guid: 609de51cbf47f8b4f90a67975c77e27d, type: 2}
 --- !u!1 &1080295582
 GameObject:
   m_ObjectHideFlags: 0

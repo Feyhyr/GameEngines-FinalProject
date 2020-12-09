@@ -8,7 +8,7 @@ public class ItemController : MonoBehaviour
     public ItemSO item;
     public Image itemIcon;
     public Image displayIcon;
-    public Text itemName;
+    public Text itemId;
 
     public Inventory inv;
     public AudioClip audioSFX;

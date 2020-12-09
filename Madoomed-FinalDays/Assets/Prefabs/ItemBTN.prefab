@@ -299,7 +299,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemIcon: {fileID: 4581513982255594975}
   displayIcon: {fileID: 0}
-  itemName: {fileID: 7650471340211025920}
+  itemId: {fileID: 7650471340211025920}
   inv: {fileID: 0}
   audioSFX: {fileID: 0}
 --- !u!1 &9180429957142862859
