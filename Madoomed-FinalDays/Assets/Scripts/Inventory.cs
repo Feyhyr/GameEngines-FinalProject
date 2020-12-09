@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class Inventory : MonoBehaviour
     public Transform wingsEquippedLocation;
     public List<ItemSO> itemList;
     public List<ItemSO> filteredList;
+
+    public ItemSO objectiveItem;
 
     private void Start()
     {
@@ -75,5 +78,23 @@ public class Inventory : MonoBehaviour
     {
         filteredList = (from item in itemList where item.category == category select item).ToList();
         return filteredList;
+    }
+
+    public void SubmitItems()
+    {
+        var npcItem = invListLocation.Cast<Transform>().Where(x => x.GetComponent<Image>()).ToList();
+
+        var npcListItem = itemList.Select((x, y) => new { index = y, element = x }).Where(x => x.element.iName == objectiveItem.iName).ToList();
+
+        foreach (Transform t in invListLocation)
+        {
+            if (t.GetComponentInChildren<Image>() != null)
+            {
+                if (t.GetComponentInChildren<Image>().sprite == objectiveItem.icon)
+                {
+                    Destroy(t.gameObject);//.SetActive(false);
+                }
+            }
+        }
     }
 }

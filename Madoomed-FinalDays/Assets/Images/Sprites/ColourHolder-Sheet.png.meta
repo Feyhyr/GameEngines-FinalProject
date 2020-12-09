@@ -7,18 +7,39 @@ TextureImporter:
     second: ColourHolder-Sheet_0
   - first:
       213: -3941224475880970819
-    second: ColourHolder-Sheet_1
-  - first:
-      213: -2043187487540322704
     second: ColourHolder-Sheet_2
   - first:
+      213: -2043187487540322704
+    second: ColourHolder-Sheet_1
+  - first:
       213: -3930580016723658589
-    second: ColourHolder-Sheet_3
+    second: ColourHolder-Sheet_2
   - first:
       213: -8606785591272892346
     second: ColourHolder-Sheet_4
   - first:
       213: 1621966909733361122
+    second: ColourHolder-Sheet_5
+  - first:
+      213: -3240735415649038040
+    second: ColourHolder-Sheet_6
+  - first:
+      213: -452052571778791902
+    second: ColourHolder-Sheet_0
+  - first:
+      213: -6074624833630821366
+    second: ColourHolder-Sheet_2
+  - first:
+      213: 3314960723603443426
+    second: ColourHolder-Sheet_1
+  - first:
+      213: -2085640512277246071
+    second: ColourHolder-Sheet_2
+  - first:
+      213: -7226649672750427250
+    second: ColourHolder-Sheet_4
+  - first:
+      213: 6361220859742224514
     second: ColourHolder-Sheet_5
   externalObjects: {}
   serializedVersion: 11
@@ -108,10 +129,10 @@ TextureImporter:
       name: ColourHolder-Sheet_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 57
-        height: 64
+        x: 16
+        y: 409
+        width: 229
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,50 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aa21aff45508f040800000000000000
-      internalID: 4681497675275774632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ColourHolder-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 8
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db52a0f7835fd49c0800000000000000
-      internalID: -3941224475880970819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ColourHolder-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 8
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07ed2ab2ec325a3e0800000000000000
-      internalID: -2043187487540322704
+      spriteID: 226c25fb49cf9b9f0800000000000000
+      internalID: -452052571778791902
       vertices: []
       indices: 
       edges: []
@@ -171,10 +150,10 @@ TextureImporter:
       name: ColourHolder-Sheet_3
       rect:
         serializedVersion: 2
-        x: 207
-        y: 8
-        width: 34
-        height: 49
+        x: 786
+        y: 409
+        width: 229
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +161,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a8ffe5cc46c379c0800000000000000
-      internalID: -3930580016723658589
+      spriteID: a042ba706e892bba0800000000000000
+      internalID: -6074624833630821366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColourHolder-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 409
+        width: 229
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee41c6f63b110e20800000000000000
+      internalID: 3314960723603443426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColourHolder-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 409
+        width: 229
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f0d8811015e03e0800000000000000
+      internalID: -2085640512277246071
       vertices: []
       indices: 
       edges: []
@@ -192,10 +213,10 @@ TextureImporter:
       name: ColourHolder-Sheet_4
       rect:
         serializedVersion: 2
-        x: 271
-        y: 8
-        width: 34
-        height: 50
+        x: 1038
+        y: 409
+        width: 229
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6489a3efa1e8e8880800000000000000
-      internalID: -8606785591272892346
+      spriteID: e83948b3968c5bb90800000000000000
+      internalID: -7226649672750427250
       vertices: []
       indices: 
       edges: []
@@ -213,10 +234,10 @@ TextureImporter:
       name: ColourHolder-Sheet_5
       rect:
         serializedVersion: 2
-        x: 335
-        y: 8
-        width: 34
-        height: 50
+        x: 1301
+        y: 409
+        width: 223
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e558149f42628610800000000000000
-      internalID: 1621966909733361122
+      spriteID: 2808db23ba8974850800000000000000
+      internalID: 6361220859742224514
       vertices: []
       indices: 
       edges: []
