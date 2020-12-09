@@ -1290,7 +1290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25, y: 269}
+  m_AnchoredPosition: {x: 25, y: 275}
   m_SizeDelta: {x: 637.6589, y: 106.786804}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1342517251
@@ -1731,7 +1731,7 @@ GameObject:
   - component: {fileID: 1949535577}
   - component: {fileID: 1949535576}
   m_Layer: 5
-  m_Name: Text
+  m_Name: OptionMenuText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1919,7 +1919,7 @@ GameObject:
   - component: {fileID: 2091433423}
   - component: {fileID: 2091433422}
   m_Layer: 5
-  m_Name: Volume
+  m_Name: VolumeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
