@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SwitchScenes : MonoBehaviour
+public class SwitchScene : MonoBehaviour
 {
     public void SwitchToScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Game has quit :3");
+        Application.Quit();
     }
 }
