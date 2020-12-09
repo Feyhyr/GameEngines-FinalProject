@@ -15,4 +15,5 @@ public class SwitchScene : MonoBehaviour
         Debug.Log("Game has quit :3");
         Application.Quit();
     }
+
 }
