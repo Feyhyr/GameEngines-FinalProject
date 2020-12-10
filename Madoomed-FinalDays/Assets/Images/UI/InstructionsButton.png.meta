@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 894708ec4b3204f4e9142f82ddff7570
+guid: 6c828d323f30f5c49be4e17002838f73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3525250412582871997
-    second: MainTitle_0
-  - first:
-      213: 9198117354336387366
-    second: MainTitle_1
-  - first:
-      213: -2408729173993403974
-    second: MainTitle_2
+      213: -1906154982015158258
+    second: InstructionsButton_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -49,13 +43,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 61, y: 211, z: 107, w: 233}
+  spriteBorder: {x: 4, y: 16, z: 4, w: 14}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -96,64 +90,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MainTitle_0
+      name: InstructionsButton_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 216
-        width: 273
-        height: 64
+        x: 4
+        y: 16
+        width: 248
+        height: 98
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db32d4a92943ce030800000000000000
-      internalID: 3525250412582871997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MainTitle_1
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 215
-        width: 413
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6218393000746af70800000000000000
-      internalID: 9198117354336387366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MainTitle_2
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 215
-        width: 163
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab9c0080499729ed0800000000000000
-      internalID: -2408729173993403974
+      spriteID: e083522a42afb85e0800000000000000
+      internalID: -1906154982015158258
       vertices: []
       indices: 
       edges: []
