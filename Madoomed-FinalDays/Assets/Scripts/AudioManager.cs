@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class AudioManager : Singleton<AudioManager>
 {
@@ -18,10 +19,10 @@ public class AudioManager : Singleton<AudioManager>
         audio.clip = sfxToPlay;
         audio.Play();
     }
+
     public void SetVolume(float volume)
     {
-        Debug.Log(volume);
-        audioMixer.SetFloat("volume", volume);
+        audioMixer.SetFloat("volume", Mathf.Log10(volume) * 20);
     }
 
 }
